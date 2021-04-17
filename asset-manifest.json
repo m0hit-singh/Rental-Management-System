@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Rental-Management-System/static/css/main.a92a525c.chunk.css",
+    "main.js": "/Rental-Management-System/static/js/main.edf2c3fe.chunk.js",
+    "main.js.map": "/Rental-Management-System/static/js/main.edf2c3fe.chunk.js.map",
+    "runtime-main.js": "/Rental-Management-System/static/js/runtime-main.37c066fc.js",
+    "runtime-main.js.map": "/Rental-Management-System/static/js/runtime-main.37c066fc.js.map",
+    "static/js/2.a33e2699.chunk.js": "/Rental-Management-System/static/js/2.a33e2699.chunk.js",
+    "static/js/2.a33e2699.chunk.js.map": "/Rental-Management-System/static/js/2.a33e2699.chunk.js.map",
+    "static/js/3.c56e4b2a.chunk.js": "/Rental-Management-System/static/js/3.c56e4b2a.chunk.js",
+    "static/js/3.c56e4b2a.chunk.js.map": "/Rental-Management-System/static/js/3.c56e4b2a.chunk.js.map",
+    "index.html": "/Rental-Management-System/index.html",
+    "static/css/main.a92a525c.chunk.css.map": "/Rental-Management-System/static/css/main.a92a525c.chunk.css.map",
+    "static/js/2.a33e2699.chunk.js.LICENSE.txt": "/Rental-Management-System/static/js/2.a33e2699.chunk.js.LICENSE.txt",
+    "static/media/booms.a6dfd693.png": "/Rental-Management-System/static/media/booms.a6dfd693.png",
+    "static/media/carry_deck_crane.6367263f.png": "/Rental-Management-System/static/media/carry_deck_crane.6367263f.png",
+    "static/media/earth_moving.57ffc437.png": "/Rental-Management-System/static/media/earth_moving.57ffc437.png",
+    "static/media/forklifts.48ac9338.png": "/Rental-Management-System/static/media/forklifts.48ac9338.png",
+    "static/media/material_lifts.ac936146.png": "/Rental-Management-System/static/media/material_lifts.ac936146.png",
+    "static/media/personnel_cart.d3800654.png": "/Rental-Management-System/static/media/personnel_cart.d3800654.png",
+    "static/media/scissor_lifts.bb9051fe.png": "/Rental-Management-System/static/media/scissor_lifts.bb9051fe.png",
+    "static/media/single_man_lifts.da53289b.png": "/Rental-Management-System/static/media/single_man_lifts.da53289b.png",
+    "static/media/telehandlers.09b7c106.png": "/Rental-Management-System/static/media/telehandlers.09b7c106.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37c066fc.js",
+    "static/js/2.a33e2699.chunk.js",
+    "static/css/main.a92a525c.chunk.css",
+    "static/js/main.edf2c3fe.chunk.js"
+  ]
+}
