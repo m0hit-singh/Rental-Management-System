@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Rental-Management-System/static/css/main.b93ac460.chunk.css",
-    "main.js": "/Rental-Management-System/static/js/main.40d3e287.chunk.js",
-    "main.js.map": "/Rental-Management-System/static/js/main.40d3e287.chunk.js.map",
+    "main.js": "/Rental-Management-System/static/js/main.57e5a364.chunk.js",
+    "main.js.map": "/Rental-Management-System/static/js/main.57e5a364.chunk.js.map",
     "runtime-main.js": "/Rental-Management-System/static/js/runtime-main.ac1ea860.js",
     "runtime-main.js.map": "/Rental-Management-System/static/js/runtime-main.ac1ea860.js.map",
     "static/js/2.082125f2.chunk.js": "/Rental-Management-System/static/js/2.082125f2.chunk.js",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.ac1ea860.js",
     "static/js/2.082125f2.chunk.js",
     "static/css/main.b93ac460.chunk.css",
-    "static/js/main.40d3e287.chunk.js"
+    "static/js/main.57e5a364.chunk.js"
   ]
 }
