@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Rental-Management-System/static/css/main.4a40149e.chunk.css",
-    "main.js": "/Rental-Management-System/static/js/main.d3bc3ef4.chunk.js",
-    "main.js.map": "/Rental-Management-System/static/js/main.d3bc3ef4.chunk.js.map",
+    "main.css": "/Rental-Management-System/static/css/main.b93ac460.chunk.css",
+    "main.js": "/Rental-Management-System/static/js/main.40d3e287.chunk.js",
+    "main.js.map": "/Rental-Management-System/static/js/main.40d3e287.chunk.js.map",
     "runtime-main.js": "/Rental-Management-System/static/js/runtime-main.ac1ea860.js",
     "runtime-main.js.map": "/Rental-Management-System/static/js/runtime-main.ac1ea860.js.map",
     "static/js/2.082125f2.chunk.js": "/Rental-Management-System/static/js/2.082125f2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2f211cca.chunk.js": "/Rental-Management-System/static/js/3.2f211cca.chunk.js",
     "static/js/3.2f211cca.chunk.js.map": "/Rental-Management-System/static/js/3.2f211cca.chunk.js.map",
     "index.html": "/Rental-Management-System/index.html",
-    "static/css/main.4a40149e.chunk.css.map": "/Rental-Management-System/static/css/main.4a40149e.chunk.css.map",
+    "static/css/main.b93ac460.chunk.css.map": "/Rental-Management-System/static/css/main.b93ac460.chunk.css.map",
     "static/js/2.082125f2.chunk.js.LICENSE.txt": "/Rental-Management-System/static/js/2.082125f2.chunk.js.LICENSE.txt",
     "static/media/NA.b2542792.jpg": "/Rental-Management-System/static/media/NA.b2542792.jpg",
     "static/media/booms.a6dfd693.png": "/Rental-Management-System/static/media/booms.a6dfd693.png",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac1ea860.js",
     "static/js/2.082125f2.chunk.js",
-    "static/css/main.4a40149e.chunk.css",
-    "static/js/main.d3bc3ef4.chunk.js"
+    "static/css/main.b93ac460.chunk.css",
+    "static/js/main.40d3e287.chunk.js"
   ]
 }
