@@ -12,8 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
   breadscrumbs: {
     height: "40px",
-    padding: "14px",
-    marginBottom: "14px",
+    padding: "0px 14px",
     fontSize: "16px",
   },
   cursor: {

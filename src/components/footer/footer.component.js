@@ -6,8 +6,8 @@ function FooterComponent() {
     color: "#fff",
     backgroundColor: "rgb(34 34 34)",
     width: "100%",
-    height: "40px",
-    padding: "10px",
+    height: "35px",
+    padding: "8px",
   };
   return (
     <footer className="footer" style={FooterStyle}>
