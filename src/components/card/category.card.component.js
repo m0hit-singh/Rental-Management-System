@@ -10,17 +10,17 @@ function CategoryCardComponent({
   return (
     <div className="col-md-3 streamcard-mobile" key={index}>
       <div
-        className="stream"
+        className="category paper-shadow"
         onClick={() => onSelectCategory(item.name, item.subcategories)}
       >
-        <div className="stream-image">
+        <div className="category-image">
           <img
             src={GetCategoryImage(item.image)}
-            className="stream-img-logo"
+            className="category-image-logo"
             alt="stream logo"
           ></img>
         </div>
-        <div className="stream-name">
+        <div className="category-name">
           <div
             className="col-md-10 col-lg-10 col-sm-10 col-xs-10"
             style={{ color: "#fff" }}
