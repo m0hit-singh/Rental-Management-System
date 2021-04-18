@@ -7,25 +7,21 @@ import data from "../../assets/data/data";
 export const NestedMenu = ({ handleCategory }) => {
   const [menuPosition, setMenuPosition] = useState(null);
 
-  console.log("dataaaa", data[0].data.locations);
-  const handleRightClick = (event) => {
-    if (menuPosition) {
-      return;
-    }
+  const handleLocationClick = (event, locationName, branches) => {
     event.preventDefault();
-    setMenuPosition({
-      top: event.pageY,
-      left: event.pageX,
-    });
-  };
-
-  const handleItemClick = (event, categoryID) => {
-    console.log(categoryID);
     setMenuPosition(null);
-    handleCategory(categoryID);
+    let allCategories = [];
+    branches.flat(1).map((item, index) => allCategories.push(item.categories));
+    handleCategory(locationName, allCategories.flat(1));
   };
 
-  const handleDropdown = (event) => {
+  const handleBranchesClick = (event, branchName, categoryID) => {
+    event.preventDefault();
+    setMenuPosition(null);
+    handleCategory(branchName, categoryID);
+  };
+
+  const handleDropdownOnMouseEnter = (event) => {
     event.preventDefault();
     setMenuPosition({
       top: event.pageY,
@@ -34,8 +30,11 @@ export const NestedMenu = ({ handleCategory }) => {
   };
 
   return (
-    <div onContextMenu={handleRightClick}>
-      <div className="text-white" onMouseEnter={(e) => handleDropdown(e)}>
+    <div>
+      <div
+        className="text-white"
+        onMouseEnter={(e) => handleDropdownOnMouseEnter(e)}
+      >
         Select Location
       </div>
       <Menu
@@ -50,7 +49,13 @@ export const NestedMenu = ({ handleCategory }) => {
               key={index}
               label={item.name}
               parentMenuOpen={!!menuPosition}
-              onClick={handleItemClick}
+              onClick={(e) =>
+                handleLocationClick(
+                  e,
+                  item.name,
+                  data[0].data.locations[index].branches
+                )
+              }
             >
               {data[0].data.locations[index].branches.map(function (
                 branch,
@@ -59,7 +64,9 @@ export const NestedMenu = ({ handleCategory }) => {
                 return (
                   <MenuItem
                     key={branchIndex}
-                    onClick={(e) => handleItemClick(e, branch.categories)}
+                    onClick={(e) =>
+                      handleBranchesClick(e, branch.name, branch.categories)
+                    }
                   >
                     {branch.name}
                   </MenuItem>

@@ -1,4 +1,4 @@
-import CardComponent from "../card/card.component";
+import CategoryCardComponent from "../card/category.card.component";
 import BoomsIMG from "../../assets/images/category/booms.png";
 import CarryDeckCraneIMG from "../../assets/images/category/carry_deck_crane.png";
 import EarthMovingIMG from "../../assets/images/category/earth_moving.png";
@@ -9,7 +9,7 @@ import ScissorLiftsIMG from "../../assets/images/category/scissor_lifts.png";
 import SingleManIMG from "../../assets/images/category/single_man_lifts.png";
 import TelehandlersIMG from "../../assets/images/category/telehandlers.png";
 
-function CategoryComponent({ category }) {
+function CategoryComponent({ category, onSelectCategory }) {
   //set dynamic images to category
   const GetCategoryImage = (categoryImage) => {
     if (categoryImage.includes("booms")) {
@@ -36,18 +36,19 @@ function CategoryComponent({ category }) {
   };
 
   return (
-    <>
+    <div className="category-container">
       {category.map(function (item, index) {
         return (
-          <CardComponent
+          <CategoryCardComponent
             key={index}
             index={index}
             item={item}
             GetCategoryImage={GetCategoryImage}
+            onSelectCategory={onSelectCategory}
           />
         );
       })}
-    </>
+    </div>
   );
 }
 

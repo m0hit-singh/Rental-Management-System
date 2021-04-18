@@ -2,7 +2,7 @@ import NestedMenu from "../dropdown/dropdown.component";
 
 function HeaderComponent({ handleCategory }) {
   return (
-    <nav>
+    <nav className="nav-bar">
       <ul className="menu">
         <li className="logo">
           <span>RENTAL MANAGEMENT SYSTEM</span>

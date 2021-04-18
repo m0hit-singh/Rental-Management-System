@@ -1,11 +1,17 @@
 import React from "react";
+import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
-function StreamCard({ index, item, GetCategoryImage }) {
+function CategoryCardComponent({
+  index,
+  item,
+  GetCategoryImage,
+  onSelectCategory,
+}) {
   return (
     <div className="col-md-3 streamcard-mobile" key={index}>
       <div
         className="stream"
-        // onClick={() => props.onSelect(props.data.qId)}
+        onClick={() => onSelectCategory(item.name, item.subcategories)}
       >
         <div className="stream-image">
           <img
@@ -15,7 +21,15 @@ function StreamCard({ index, item, GetCategoryImage }) {
           ></img>
         </div>
         <div className="stream-name">
-          <span>{item.name}</span>
+          <div
+            className="col-md-10 col-lg-10 col-sm-10 col-xs-10"
+            style={{ color: "#fff" }}
+          >
+            {item.name}
+          </div>
+          <div className="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+            <ArrowRightIcon fontSize="large" style={{ color: "#fff" }} />
+          </div>
         </div>
       </div>
     </div>
@@ -46,4 +60,4 @@ function StreamCard({ index, item, GetCategoryImage }) {
 //   );
 // }
 
-export default StreamCard;
+export default CategoryCardComponent;
